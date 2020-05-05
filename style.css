@@ -3,21 +3,38 @@
 	padding: 0px;
 	font-family: sans-serif;
 }
+body{
+    background-color: #adadad;
+	background-size: auto;
+	background-position: center;
+	color: #adadad;
+}
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(kopi.jpg);
+	background-image: url(background1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+	color: white;
 }
-ul{
+.main{
+	background-image: url(background1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+.main h1{
+
+}
+.main ul{
 	float: right;
 	list-style-type: none;
 	margin-top: 25px;
 }
-ul li{
+.main ul li{
 	display: inline-block;
 }
-ul li a{
+.main ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
@@ -25,101 +42,126 @@ ul li a{
 	transition: 0.6s;
 	margin-top: 10px;
 }
-ul li a:hover{
+.main ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
-ul li.active a{
+.main ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
-.logo img{
-	float: left;
-	width: 100px;
-	height: auto;
+.head ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.head ul li{
+	display: inline-block;
+}
+.head ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+.head img{
+	width: 150px;
+}
+.head h1{
+	font-family: "Cooper Black";
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: translate(-50%;-50%);
+	font-size: 70px;
+	color: black;
+	
+}
+.head h2{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+	font-size: 40px;
+	color: black;
+	
+
 }
 
-.title{
+
+#png1{
 	position: absolute;
-	top: 10%;
-	left: 35%;
+	top: 105%;
+	left:  35%;
+}
+.badan h1{
+	font-family: "Cooper Black";
+	position: absolute;
+	top: 162%;
+	left: 30%;
 	transform: translate(-50%;-50%);
+	font-size: 50px;
+	color: black;
 }
-.title h1{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 60px;
-}.text{
+#tabel1{
 	position: absolute;
-	top: 1%;
-	left: 6%;
+	top: 170%;
+	left:  32%;
 }
-.text p{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 20px;
-}
-.table{
+
+
+#png2{
 	position: absolute;
-	top: 40%;
-	left: 32%;
-	color: #fff;
-	font-size: 16px;
+	top: 215%;
+	left:  35%;
 }
-.judul{
+.badan h2{
+	font-family: "Cooper Black";
 	position: absolute;
-	top: 37%;
-	left: 42%;
-}
-.judul p{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 20px;
-}
-.pendidikan{
-	position: absolute;
-	top: 40%;
-	left: 5%;
-	color: #fff;
-	font-size: 16px;
-}
-.judul1{
-	position: absolute;
-	top: 37%;
-	left: 10%;
-}
-.judul1 p{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 20px;
-}
-.matkul{
-	position: absolute;
-	top: 40%;
-	right:  5%;
-	color: #fff;
-	font-size: 16px;
-}
-.judul2{
-	position: absolute;
-	top: 37%;
-	right:  10%;
-}
-.judul2 p{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 20px;
-}
-.title1{
-	position: absolute;
-	top: 10%;
-	left: 35%;
+	top: 270%;
+	left: 40%;
 	transform: translate(-50%;-50%);
+	font-size: 50px;
+	color: black;
 }
-.title1 h1{
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 60px;
+#tabel2{
+	position: absolute;
+	top: 277%;
+	left:  41%;
+}
+
+#png3{
+	position: absolute;
+	top: 325%;
+	left:  40%;
+}
+.badan h3{
+	font-family: "Cooper Black";
+	position: absolute;
+	top: 385%;
+	left: 40%;
+	transform: translate(-50%;-50%);
+	font-size: 50px;
+	color: black;
+}
+#tabel3{
+	position: absolute;
+	top: 392%;
+	left:  41%;
+}
+
+
+#footer-copyright{
+	position: absolute;
+	top: 435%;
+	width: 100%;
+	height: 60px;
+	color: #adadad;
+	background-color: black;
+	text-align: center;
+	padding: 5px;
 }
 .logo1 img{
 	position: absolute;
@@ -132,7 +174,7 @@ ul li.active a{
 	position: absolute;
 	top: 45%;
 	left: 39%;
-	color: #fff;
+	color: black;
 	font-size: 16px;
 }
 .form input{
@@ -151,6 +193,17 @@ ul li.active a{
 .form ul li{
 	display: inline-block;
 }
+.title1{
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+}
+.title1 h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 60px;
+}
 .title2{
 	position: absolute;
 	top: 40%;
@@ -159,6 +212,6 @@ ul li.active a{
 }
 .title2 h1{
 	font-family: sans-serif;
-	color: #fff;
+	color: black;
 	font-size: 60px;
 }
