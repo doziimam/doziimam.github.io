@@ -75,7 +75,7 @@ header{
 	top: 30%;
 	left: 20%;
 	transform: translate(-50%;-50%);
-	font-size: 70px;
+	font-size: 50px;
 	color: black;
 	
 }
@@ -84,7 +84,7 @@ header{
 	top: 40%;
 	left: 35%;
 	transform: translate(-50%;-50%);
-	font-size: 40px;
+	font-size: 30px;
 	color: black;
 	
 
@@ -99,63 +99,63 @@ header{
 .badan h1{
 	font-family: "Cooper Black";
 	position: absolute;
-	top: 162%;
-	left: 30%;
+	top: 185%;
+	left: 25%;
 	transform: translate(-50%;-50%);
 	font-size: 50px;
 	color: black;
 }
 #tabel1{
 	position: absolute;
-	top: 170%;
-	left:  32%;
+	top: 200%;
+	left:  28%;
 }
 
 
 #png2{
 	position: absolute;
-	top: 215%;
-	left:  35%;
+	top: 260%;
+	left:  32%;
 }
 .badan h2{
 	font-family: "Cooper Black";
 	position: absolute;
-	top: 270%;
-	left: 40%;
+	top: 340%;
+	left: 38%;
 	transform: translate(-50%;-50%);
 	font-size: 50px;
 	color: black;
 }
 #tabel2{
 	position: absolute;
-	top: 277%;
-	left:  41%;
+	top: 355%;
+	left:  39%;
 }
 
 #png3{
 	position: absolute;
-	top: 325%;
-	left:  40%;
+	top: 410%;
+	left:  38%;
 }
 .badan h3{
 	font-family: "Cooper Black";
 	position: absolute;
-	top: 385%;
-	left: 40%;
+	top: 500%;
+	left: 35%;
 	transform: translate(-50%;-50%);
 	font-size: 50px;
 	color: black;
 }
 #tabel3{
 	position: absolute;
-	top: 392%;
-	left:  41%;
+	top: 515%;
+	left:  38%;
 }
 
 
 #footer-copyright{
 	position: absolute;
-	top: 435%;
+	top: 570%;
 	width: 100%;
 	height: 60px;
 	color: #adadad;
@@ -165,15 +165,15 @@ header{
 }
 .logo1 img{
 	position: absolute;
-	width: 200px;
+	width: 150px;
 	height: auto;
-	top: 20%;
-	right:  45%;
+	top: 2%;
+	left: 45% ;
 }
 .form{
 	position: absolute;
-	top: 45%;
-	left: 39%;
+	top: 25%;
+	left: 36%;
 	color: black;
 	font-size: 16px;
 }
@@ -195,23 +195,23 @@ header{
 }
 .title1{
 	position: absolute;
-	top: 10%;
-	left: 35%;
+	top: 0%;
+	left: 0%;
 	transform: translate(-50%;-50%);
 }
 .title1 h1{
 	font-family: sans-serif;
 	color: #fff;
-	font-size: 60px;
+	font-size: 30px;
 }
 .title2{
 	position: absolute;
 	top: 40%;
-	left: 17%;
+	left: 20%;
 	transform: translate(-50%;-50%);
 }
 .title2 h1{
 	font-family: sans-serif;
 	color: black;
-	font-size: 60px;
+	font-size: 40px;
 }
